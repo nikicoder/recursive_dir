@@ -71,7 +71,8 @@ class CountCalculator
     }
     
     /**
-     * parseDirectory
+     * Парсит дерево директорий ФС начиная с root-директории
+     * В случае нахождения в директории файла counts запускает обработку данного файла
      *
      * @return void
      */
@@ -103,7 +104,8 @@ class CountCalculator
     }
     
     /**
-     * parseCountResultAndUpdateTotals
+     * Разбирает результат файлового матчинга, получает результат counts
+     * и суммирует в общий результат
      *
      * @param  mixed $item
      * @return void
