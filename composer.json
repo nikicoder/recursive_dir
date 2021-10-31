@@ -1,0 +1,15 @@
+{
+    "name": "nikicoder/recursive_dir",
+    "authors": [
+        {
+            "name": "Nikita Bykov",
+            "email": "cyberbloody@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DirListener\\": "src/"
+        }
+    }
+}
